@@ -13,4 +13,9 @@ public class AwsController {
 		return mv;
 	}
 
+	@GetMapping("/test")
+	public ModelAndView mv1() {
+		ModelAndView mv = new ModelAndView("test");
+		return mv;
+	}
 }
