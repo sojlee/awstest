@@ -10,4 +10,9 @@ public class AwsController {
 	public String main() {
 		return "hi";
 	}
+	
+	@GetMapping("/main")
+	public String main2() {
+		return "hello";
+	}
 }
