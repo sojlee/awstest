@@ -8,11 +8,7 @@ public class AwsController {
 	
 	@GetMapping("/")
 	public String main() {
-		return "hi";
+		return "test";
 	}
-	
-	@GetMapping("/main")
-	public String main2() {
-		return "hello";
-	}
+
 }
